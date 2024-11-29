@@ -31,6 +31,14 @@
     <p>There is no Product focused here</p>
 {% endif %}
 
-{% comment %}
-{{ collections.drop }}
-{% endcomment %}
+{% comment %} Maths operations {% endcomment %}
+{% assign firstNum = 4 %}
+{% assign secondNum = 2 %}
+Here is {{ firstNum }} divided by {{ secondNum }}:
+<br>
+{{ firstNum | divided_by: secondNum }}
+
+<br>
+Here is {{ firstNum }} times {{ secondNum }}:
+<br>
+{{ firstNum | times: secondNum }}
