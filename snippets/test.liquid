@@ -3,7 +3,6 @@
 {{ myString }}
 
 <br>
-
 {% comment %} numbers {% endcomment %}
 {% assign myNumber = 1234 %}
 {% assign myFloatingPoint = 123.4 %}
@@ -11,16 +10,14 @@
 {{ myNumber }}, {{ myFloatingPoint }}
 
 <br>
-
 {% comment %} boolean {% endcomment %}
 {% assign myBool = true %}
 {{ myBool }}
 
 <br>
-
 {% comment %} Shopify variables / Arrays {% endcomment %}
 {% if article.author != null %}
-    {{ article.author }}
+    <p>{{ article.author }}</p>
     {% else %}
     <p>There is no Author focused here</p>
 {% endif %}
@@ -35,10 +32,35 @@
 {% assign firstNum = 4 %}
 {% assign secondNum = 2 %}
 Here is {{ firstNum }} divided by {{ secondNum }}:
+
 <br>
 {{ firstNum | divided_by: secondNum }}
 
 <br>
 Here is {{ firstNum }} times {{ secondNum }}:
+
 <br>
 {{ firstNum | times: secondNum }}
+
+<br>
+{% for product in all_products %}
+    {{ product }}
+    <br>
+{% endfor %}
+
+<br>
+{% comment %} Captures {% endcomment %}
+{% if product.title %}
+{% capture html %}
+    <div>
+        <p>Hello {{ product.title }}!</p>
+    </div>
+{% endcapture %}
+    {{ html }}
+{% endif %}
+
+{% comment %} Dump {% endcomment %}
+{% if product %}
+    <p style="color: green">Dump of {{ product.title }}:</p>
+    {{ product | json }}
+{% endif %}
