@@ -1,0 +1,27 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "index.json",
+  "context": {
+    "market": "international"
+  },
+  "sections": {
+    "rich_text_mWcxyF": {
+      "settings": {},
+      "blocks": {
+        "text_NwcBnW": {
+          "settings": {
+            "text": "<p>Acheter chez Alex Dev Store Numendo, c'est s'assurer que rien ne manque chez-soi !</p>"
+          }
+        }
+      }
+    }
+  }
+}

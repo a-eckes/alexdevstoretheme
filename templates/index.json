@@ -1,0 +1,105 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_mWcxyF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wWcDFK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bienvenue !",
+            "heading_size": "h0"
+          }
+        },
+        "text_NwcBnW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Acheter chez Alex Dev Store Numendo, c'est s'assurer que rien ne manque chez-soi ! </p>"
+          }
+        },
+        "button_JhLmF6": {
+          "type": "button",
+          "settings": {
+            "button_label": "Dernière collection",
+            "button_link": "shopify://collections/salle-de-bain",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_wWcDFK",
+        "text_NwcBnW",
+        "button_JhLmF6"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 24,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "featured_blog_69XqJ6": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Restez informés",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "rich_text_mWcxyF",
+    "featured_collection",
+    "featured_blog_69XqJ6"
+  ]
+}

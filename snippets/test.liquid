@@ -1,0 +1,36 @@
+{% comment %} string {% endcomment %}
+{% assign myString = "1234" %}
+{{ myString }}
+
+<br>
+
+{% comment %} numbers {% endcomment %}
+{% assign myNumber = 1234 %}
+{% assign myFloatingPoint = 123.4 %}
+
+{{ myNumber }}, {{ myFloatingPoint }}
+
+<br>
+
+{% comment %} boolean {% endcomment %}
+{% assign myBool = true %}
+{{ myBool }}
+
+<br>
+
+{% comment %} Shopify variables / Arrays {% endcomment %}
+{% if article.author != null %}
+    {{ article.author }}
+    {% else %}
+    <p>There is no Author focused here</p>
+{% endif %}
+
+{% if product.title %}
+{{ product.title | upcase }}
+    {% else %}
+    <p>There is no Product focused here</p>
+{% endif %}
+
+{% comment %}
+{{ collections.drop }}
+{% endcomment %}

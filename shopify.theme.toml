@@ -1,0 +1,2 @@
+[environments.development]
+store = "https://alex-dev-store-numendo.myshopify.com/"
