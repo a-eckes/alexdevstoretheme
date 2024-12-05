@@ -64,3 +64,8 @@ Here is {{ firstNum }} times {{ secondNum }}:
     <p style="color: green">Dump of {{ product.title }}:</p>
     {{ product | json }}
 {% endif %}
+
+
+{% if product.title contains 'Canard' %}
+    <p style="color: red">Product title contains "Canard"</p>
+{% endif %}
