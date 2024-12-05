@@ -1,21 +1,18 @@
-<p>Hello World from space!</p>
-
 {% schema %}
 {
-  "name": "Custom Section",
+  "name": "Numendo",
+  "class": "index-section index-section--flush",
   "settings": [
     {
+      "id": "cta_1_title",
       "type": "text",
-      "id": "heading",
-      "label": "Heading",
-      "default": "This is a custom section"
+      "label": "CTA 1 Title",
+      "default": "Dryups Specials"
     }
   ],
-  "presets": [
-    {
-      "name": "Default",
-      "category": "Custom"
-    }
-  ]
+  "presets": [{
+    "name": "Numendo",
+    "category": "Text"
+  }]
 }
 {% endschema %}
