@@ -1,14 +1,14 @@
 {% schema %}
 {
-  "name": "Slideshow",
+  "name": "Carousel",
   "tag": "section",
-  "class": "slideshow",
+  "class": "carousel",
   "max_blocks": 5,
   "settings": [
     {
       "type": "text",
       "id": "title",
-      "label": "Slideshow"
+      "label": "Carousel"
     }
   ],
   "blocks": [
@@ -20,20 +20,42 @@
           "type": "image_picker",
           "id": "image",
           "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "caption",
+          "label": "Caption",
+          "default": ""
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link",
+          "default": ""
         }
       ]
     }
   ],
   "default": {
     "settings": {
-      "title": "Slideshow"
+      "title": "Carousel"
     },
     "blocks": [
       {
-        "type": "slide"
+        "type": "slide",
+        "settings": {
+          "image": "",
+          "caption": "",
+          "link": ""
+        }
       },
       {
-        "type": "slide"
+        "type": "slide",
+        "settings": {
+          "image": "",
+          "caption": "",
+          "link": ""
+        }
       }
     ]
   }
