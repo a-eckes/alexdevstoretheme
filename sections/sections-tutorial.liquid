@@ -1,63 +1,8 @@
 {% schema %}
 {
-  "name": "Carousel",
+  "name": "Minimal Section",
   "tag": "section",
-  "class": "carousel",
-  "max_blocks": 5,
-  "settings": [
-    {
-      "type": "text",
-      "id": "title",
-      "label": "Carousel"
-    }
-  ],
-  "blocks": [
-    {
-      "name": "Slide",
-      "type": "slide",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        },
-        {
-          "type": "text",
-          "id": "caption",
-          "label": "Caption",
-          "default": ""
-        },
-        {
-          "type": "url",
-          "id": "link",
-          "label": "Link",
-          "default": ""
-        }
-      ]
-    }
-  ],
-  "default": {
-    "settings": {
-      "title": "Carousel"
-    },
-    "blocks": [
-      {
-        "type": "slide",
-        "settings": {
-          "image": "",
-          "caption": "",
-          "link": ""
-        }
-      },
-      {
-        "type": "slide",
-        "settings": {
-          "image": "",
-          "caption": "",
-          "link": ""
-        }
-      }
-    ]
-  }
+  "class": "minimal-section",
+  "settings": []
 }
 {% endschema %}
