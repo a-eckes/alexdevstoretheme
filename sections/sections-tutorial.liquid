@@ -2,7 +2,7 @@
 
 {% schema %}
 {
-  "name": "Custom",
+  "name": "Slideshow",
   "tag": "section",
   "class": "slideshow",
   "settings": [
@@ -10,6 +10,22 @@
       "type": "text",
       "id": "header",
       "label": "Header"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Slideshow",
+      "settings": {
+        "title": "Slideshow"
+      },
+      "blocks": [
+        {
+          "type": "slide"
+        },
+        {
+          "type": "slide"
+        }
+      ]
     }
   ]
 }
